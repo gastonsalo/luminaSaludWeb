@@ -1,0 +1,14 @@
+@mixin barraGeneral{
+    background-color: $color-lumina;
+    font-family: $tipografia;
+    border-top: white 4px;
+    border-bottom: white 4px;
+    z-index: 9999;
+    border-top: white solid 5px;
+    border-bottom: white solid 5px;
+    display: flex;
+    flex-direction: row;
+    width: 98.5%;
+}
+
+

@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import url(animate.css);
+* {
+  margin: 0;
+  padding: 0; }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: white; }
+
+.sticky {
+  position: fixed;
+  z-index: 9999;
+  width: 100%; }
+
+/*logo cabecera*/
+.imgCabecera {
+  width: 40%; }
+
+/*NAVBAR*/
+.navbar {
+  background-color: #907FA9;
+  font-family: "Titillium Web", sans-serif;
+  border-top: white 4px;
+  border-bottom: white 4px;
+  z-index: 9999;
+  border-top: white solid 5px;
+  border-bottom: white solid 5px;
+  display: flex;
+  flex-direction: row;
+  width: 98.5%;
+  position: fixed; }
+
+.navbarPage {
+  background-color: #907FA9;
+  font-family: "Titillium Web", sans-serif;
+  border-top: white 4px;
+  border-bottom: white 4px;
+  z-index: 9999;
+  border-top: white solid 5px;
+  border-bottom: white solid 5px;
+  display: flex;
+  flex-direction: row;
+  width: 98.5%;
+  align-items: center; }
+
+.submenu {
+  background-color: #907FA9;
+  border-left: white solid 5px;
+  border-right: white solid 5px;
+  border-bottom: white solid 5px; }
+
+.logoWatsapp {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.4rem; }
+
+.chatea {
+  text-decoration: none;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1rem;
+  color: white;
+  list-style: none;
+  margin-right: 1rem;
+  width: 50%;
+  text-align: right;
+  animation-iteration-count: infinite; }
+
+.chatea:hover {
+  font-style: normal;
+  font-weight: 400;
+  color: white; }
+
+/* MAIN INDEX*/
+/* CAROUSEL*/
+.carousel {
+  box-shadow: 1px 4px #dddada; }
+
+.carousel-item {
+  transition: transform 2s ease, opacity .3s ease-out; }
+
+.carousel-control-prev-icon {
+  width: 6rem;
+  height: 6rem; }
+
+.carousel-control-next-icon {
+  width: 6rem;
+  height: 6rem; }
+
+/* AREAS DE ATENCION*/
+.card {
+  margin: 3rem 1rem;
+  width: 18rem;
+  height: 18rem;
+  background-color: #907FA9;
+  border-radius: 5%;
+  border: white solid 4px;
+  box-shadow: 6px 6px #dddada; }
+  .card .card__caja {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .card .card__caja .card__caja__especialidad {
+      text-decoration: none;
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 200;
+      font-size: 2.2rem;
+      color: white; }
+
+.card:hover {
+  background-color: white;
+  border: gray solid 4px;
+  transform: rotateZ(45deg);
+  transition: ease-in-out 0.3s; }
+  .card:hover .card__caja__especialidad:hover {
+    color: #907FA9;
+    transform: rotateZ(-45deg);
+    transition: ease-in-out 0.3s;
+    font-style: italic;
+    font-weight: 400; }
+
+/*FOOTER PARA TODAS LAS PAGES*/
+.cajaPie .cajaPie__h4 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400; }
+
+.cajaPie .cajaPie__h6 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic; }
+
+.cajaPie .cajaPie__mapa {
+  margin-top: 2rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+  box-shadow: #dddada 6px 6px; }
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  align-items: center; }
+
+.redes__img {
+  height: 3rem;
+  width: 3rem;
+  margin-top: 3rem;
+  margin: 0rem 1rem; }
+
+.footer {
+  margin-top: 2rem;
+  border-top: solid grey 1.5px; }
+
+.area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  .area .area__titulo {
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: black; }
+
+.descripcion {
+  font-family: "Titillium Web", sans-serif;
+  color: black;
+  text-align: justify; }
+
+.imgProf {
+  display: flex;
+  flex-direction: row;
+  justify-content: right; }
+
+.datosProf {
+  list-style: none;
+  font-family: "Titillium Web", sans-serif;
+  color: #907FA9;
+  text-decoration: none; }

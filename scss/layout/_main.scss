@@ -1,0 +1,66 @@
+/* MAIN INDEX*/
+
+
+/* CAROUSEL*/
+
+.carousel{
+    box-shadow: 1px 4px rgb(221, 218, 218);
+}
+
+.carousel-item{
+    transition: transform 2s ease, opacity .3s ease-out;
+}
+
+.carousel-control-prev-icon{
+    width: 6rem;
+    height: 6rem;
+}
+
+.carousel-control-next-icon{
+    width: 6rem;
+    height: 6rem;
+}
+
+/* AREAS DE ATENCION*/
+
+.card{
+    margin: 3rem 1rem;
+    width: 18rem;
+    height: 18rem;
+    background-color: $color-lumina;
+    border-radius: 5%;
+    border: white solid 4px;
+    box-shadow: 6px 6px rgb(221, 218, 218);
+    
+
+    .card__caja{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        .card__caja__especialidad{
+            text-decoration: none;
+            font-family: $tipografia;
+            font-weight: 200;
+            font-size: 2.2rem;
+            color: white;
+
+        }
+    }
+}
+
+.card:hover{
+    background-color: white;
+    border:gray solid 4px ;
+    transform: rotateZ(45deg);
+    transition: ease-in-out 0.3s;
+
+    .card__caja__especialidad:hover{
+        color: $color-lumina;
+        transform: rotateZ(-45deg);
+        transition: ease-in-out 0.3s;
+        font-style: italic;
+        font-weight: 400;
+    }
+}

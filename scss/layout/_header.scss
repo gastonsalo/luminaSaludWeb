@@ -1,0 +1,79 @@
+@import "../utilities/mixins";
+@import "../base/typo";
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    
+    background-color: white;
+}
+
+.sticky {
+
+
+    position: fixed;
+    z-index:9999;
+    width: 100%;
+}
+
+/*logo cabecera*/
+
+.imgCabecera{
+    width: 40%;
+
+}
+
+
+
+/*NAVBAR*/ 
+.navbar{
+@include barraGeneral;
+    position: fixed;
+
+}
+
+
+.navbarPage {
+
+    @include barraGeneral;
+    align-items: center;
+
+
+}
+
+.submenu{
+    background-color: $color-lumina;
+    border-left: white solid 5px;
+    border-right: white solid 5px;
+    border-bottom: white solid 5px;
+}
+
+
+.logoWatsapp{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.4rem;
+    
+}
+
+.chatea{
+    text-decoration: none;
+    font-family: $tipografia;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+    list-style: none;
+    margin-right: 1rem;
+    width: 50%;
+    text-align: right;
+    animation-iteration-count: infinite;
+}
+
+.chatea:hover{
+    font-style:normal;
+    font-weight: 400;
+    color:white
+}
+

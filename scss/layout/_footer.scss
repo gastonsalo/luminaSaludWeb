@@ -1,0 +1,45 @@
+
+
+     /*FOOTER PARA TODAS LAS PAGES*/
+
+.cajaPie{
+    .cajaPie__h4{
+        font-family: $tipografia;
+        font-weight: 400;
+    }
+    
+    .cajaPie__h6{
+        font-family: $tipografia;
+        font-weight: 200;
+        font-style: italic;
+    }
+
+    .cajaPie__mapa{
+        margin-top: 2rem;
+        width: 150px;
+        height: 150px;
+        border-radius: 5%;
+        box-shadow: rgb(221, 218, 218) 6px 6px;
+    }
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.redes__img{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 3rem;
+    margin: 0rem 1rem;
+
+}
+
+.footer{
+    margin-top: 2rem;
+    border-top:solid grey 1.5px;
+}
