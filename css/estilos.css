@@ -24,8 +24,6 @@
 .navbar {
   background-color: #907FA9;
   font-family: "Titillium Web", sans-serif;
-  border-top: white 4px;
-  border-bottom: white 4px;
   z-index: 9999;
   border-top: white solid 5px;
   border-bottom: white solid 5px;
@@ -37,8 +35,6 @@
 .navbarPage {
   background-color: #907FA9;
   font-family: "Titillium Web", sans-serif;
-  border-top: white 4px;
-  border-bottom: white 4px;
   z-index: 9999;
   border-top: white solid 5px;
   border-bottom: white solid 5px;
@@ -126,12 +122,13 @@
 
 /*FOOTER PARA TODAS LAS PAGES*/
 .cajaPie .cajaPie__h4 {
+  margin-top: 2rem;
   font-family: "Titillium Web", sans-serif;
   font-weight: 400; }
 
 .cajaPie .cajaPie__h6 {
   font-family: "Titillium Web", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic; }
 
 .cajaPie .cajaPie__mapa {
@@ -145,13 +142,18 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 100%;
+  height: 60%;
+  align-items: center; }
+
+.horario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center; }
 
 .redes__img {
   height: 3rem;
   width: 3rem;
-  margin-top: 3rem;
   margin: 0rem 1rem; }
 
 .footer {
@@ -171,6 +173,8 @@
 
 .descripcion {
   font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
   color: black;
   text-align: justify; }
 
@@ -185,7 +189,37 @@
   color: #907FA9;
   text-decoration: none; }
 
+.descripcion {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #907FA9; }
 
+.datosProf {
+  list-style: none;
+  font-family: "Titillium Web", sans-serif;
+  color: black;
+  text-decoration: none; }
 
+.imgProf {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  border-radius: 10%; }
 
+.nosotros {
+  font-family: "Titillium Web", sans-serif;
+  color: #907FA9;
+  font-style: italic;
+  font-weight: 700; }
 
+.historia {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  text-align: justify; }
+
+h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #907FA9; }

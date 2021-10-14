@@ -1,0 +1,15 @@
+@import "utilities/variables";
+
+
+.nosotros{
+    font-family: $tipografia;
+    color: $color-lumina;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.historia{
+    font-family: $tipografia;
+    font-weight: 400; 
+    text-align: justify;
+}

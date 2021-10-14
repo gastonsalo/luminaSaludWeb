@@ -1,24 +1,22 @@
 @import "utilities/variables";
 
-
 .descripcion{
     font-family:$tipografia;
     font-weight: 400;
     font-style: italic;
+    color: $color-lumina;
+    }
+
+.datosProf{
+    list-style: none;
+    font-family: $tipografia;
     color: black;
-    text-align: justify;
-}
+    text-decoration: none;    
+    }
 
 .imgProf{
     display: flex;
     flex-direction: row;
     justify-content:right;
-}
-
-.datosProf{
-    list-style: none;
-    font-family: $tipografia;
-    color: $color-lumina;
-    text-decoration: none;
-    
-}
+    border-radius: 10%;
+    }

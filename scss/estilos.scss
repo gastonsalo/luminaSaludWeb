@@ -13,3 +13,15 @@
 @import "views/estetica";
 
 @import "views/fonoaudiologia";
+
+@import "./views/odontologia";
+
+@import "./views/quieneSomos";
+
+
+h3{
+    font-family:$tipografia;
+    font-weight: 400;
+    font-style: italic;
+    color:$color-lumina;
+}
