@@ -178,11 +178,6 @@
   color: black;
   text-align: justify; }
 
-.imgProf {
-  display: flex;
-  flex-direction: row;
-  justify-content: right; }
-
 .datosProf {
   list-style: none;
   font-family: "Titillium Web", sans-serif;
@@ -202,12 +197,9 @@
   text-decoration: none; }
 
 .imgProf {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
   border-radius: 10%; }
 
-.nosotros {
+.titulos {
   font-family: "Titillium Web", sans-serif;
   color: #907FA9;
   font-style: italic;
