@@ -93,10 +93,10 @@
   margin: 3rem 1rem;
   width: 18rem;
   height: 18rem;
-  background-color: #907FA9;
+  background-color: white;
   border-radius: 5%;
-  border: white solid 4px;
-  box-shadow: 6px 6px #dddada; }
+  border: #907FA9 solid 4px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
   .card .card__caja {
     display: flex;
     justify-content: center;
@@ -106,37 +106,40 @@
       font-family: "Titillium Web", sans-serif;
       font-weight: 200;
       font-size: 2.2rem;
-      color: white; }
+      color: #907FA9; }
 
 .card:hover {
-  background-color: white;
-  border: gray solid 4px;
-  transform: rotateZ(45deg);
-  transition: ease-in-out 0.3s; }
-  .card:hover .card__caja__especialidad:hover {
-    color: #907FA9;
-    transform: rotateZ(-45deg);
-    transition: ease-in-out 0.3s;
-    font-style: italic;
-    font-weight: 400; }
+  border: #907FA9 solid 4px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition-duration: 0.5s; }
+
+.card__caja__especialidad:hover {
+  color: #907FA9;
+  font-style: italic;
+  font-weight: 400; }
 
 /*FOOTER PARA TODAS LAS PAGES*/
+footer {
+  background-color: #907FA9; }
+
 .cajaPie .cajaPie__h4 {
   margin-top: 2rem;
   font-family: "Titillium Web", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  color: white; }
 
 .cajaPie .cajaPie__h6 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 300;
-  font-style: italic; }
+  font-style: italic;
+  color: white; }
 
 .cajaPie .cajaPie__mapa {
   margin-top: 2rem;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 5%;
-  box-shadow: #dddada 6px 6px; }
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 .redes {
   display: flex;
@@ -149,11 +152,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  color: white; }
 
 .redes__img {
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 2rem;
   margin: 0rem 1rem; }
 
 .footer {
@@ -182,7 +186,8 @@
   list-style: none;
   font-family: "Titillium Web", sans-serif;
   color: #907FA9;
-  text-decoration: none; }
+  text-decoration: none;
+  line-height: 2rem; }
 
 .descripcion {
   font-family: "Titillium Web", sans-serif;
@@ -197,7 +202,7 @@
   text-decoration: none; }
 
 .imgProf {
-  border-radius: 10%; }
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 .titulos {
   font-family: "Titillium Web", sans-serif;
