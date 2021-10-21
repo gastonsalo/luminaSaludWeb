@@ -12,12 +12,13 @@
     position: fixed;
     z-index:9999;
     width: 100%;
+    top: 0;
 }
 
 /*logo cabecera*/
 
 .imgCabecera{
-    width: 40%;
+    width: 20%;
 
 }
 
@@ -73,3 +74,14 @@
     color:white
 }
 
+@media (max-width:768px){
+    .imgCabecera{
+        width: 40%;
+    }
+}
+
+.nav-item:hover{
+font-family: $tipografia;
+font-style: italic;
+font-weight: 600;
+}

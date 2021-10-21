@@ -2,10 +2,10 @@
     background-color: $color-lumina;
     font-family: $tipografia;
     z-index: 9999;
-    border-top: white solid 5px;
     border-bottom: white solid 5px;
     display: flex;
     flex-direction: row;
     width: 98.5%;
+    opacity: 0.8;
 }
 
