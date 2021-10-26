@@ -46,7 +46,7 @@
                                 </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active mx-4" aria-current="page" href="../pages/productos.html">Productos</a>
+                            <a class="nav-link active mx-4" aria-current="page" href="../pages/galeria.html">Galería</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active mx-md-0 mx-lg-4" aria-current="page" href="../pages/quinesSomos.html">Quienes somos</a>
@@ -65,13 +65,21 @@
 
 
         <main>
-            <section class="area">
-                <h1 class="area__titulo animate__animated animate__fadeInLeft">Estética - Lumina Salud</h1>
-                <p class="area__informacion animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae voluptatibus maiores rem inventore repudiandae illum facere, tempora ad deserunt quos quaerat totam unde saepe praesentium ipsa, repellendus nisi mollitia.
-                Provident perspiciatis mollitia iusto alias, obcaecati accusamus deleniti saepe eos illum. Harum itaque dolorum error ipsam, explicabo suscipit debitis reiciendis natus modi a. Impedit error quam, laboriosam ipsa libero inventore?
-                Atque id eius nemo optio corporis facere iure, itaque, sed nobis ipsa corrupti dignissimos. Asperiores odio, rerum ex ipsam non, earum amet nostrum tempore reprehenderit ducimus voluptatem qui pariatur eveniet.
-                </p>
-            </section>
+            <div class=" container">
+                <div class="row">
+                    <div class="col-12 text-center mb-3"><h1 class="titulos">- Hacenos tu consulta -</h1></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <form class="contacto p-3" action="enviar.php" method="post">
+                            <input type="text" name="nombre" placeholder="Nombre" required>
+                            <input type="text" name="correo" placeholder="Su Email" required>
+                            <textarea name="mensaje" placeholder="Escriba su consulta aquí"></textarea>
+                            <input type="submit" value="ENVIAR">
+                        </form>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
         </main>
 
 

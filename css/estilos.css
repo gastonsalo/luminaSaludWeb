@@ -49,6 +49,8 @@
   border-left: white solid 5px;
   border-right: white solid 5px;
   border-bottom: white solid 5px; }
+  .submenu a {
+    color: white; }
 
 .logoWatsapp {
   width: 1.5rem;
@@ -221,6 +223,11 @@ footer {
   text-decoration: none;
   line-height: 2rem; }
 
+.atencion {
+  color: #907FA9;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600; }
+
 .descripcion {
   font-family: "Titillium Web", sans-serif;
   font-weight: 400;
@@ -236,6 +243,17 @@ footer {
 .imgProf {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
+.obrasSociales {
+  background-color: #907FA9;
+  color: white; }
+  .obrasSociales li {
+    color: white;
+    padding: 1px 8px; }
+
+.cajaBoton {
+  background-color: #907FA9;
+  color: white; }
+
 .titulos {
   font-family: "Titillium Web", sans-serif;
   color: #907FA9;
@@ -246,6 +264,34 @@ footer {
   font-family: "Titillium Web", sans-serif;
   font-weight: 400;
   text-align: justify; }
+
+.contacto {
+  border: 4px solid #907FA9;
+  background-color: #907FA9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 4%;
+  display: flex;
+  flex-direction: column; }
+  .contacto input, .contacto textarea {
+    margin: 10px 15px 10px 15px;
+    padding: 3px;
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    color: #907FA9; }
+  .contacto textarea {
+    min-height: 100px;
+    max-height: 250px; }
+
+.form {
+  color: white;
+  font-family: "Titillium Web", sans-serif; }
+
+textArea {
+  height: 10rem; }
+
+@media (max-width: 768px) {
+  .contacto {
+    width: 100%; } }
 
 h3 {
   font-family: "Titillium Web", sans-serif;
